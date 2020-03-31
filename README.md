@@ -25,7 +25,7 @@ PWAに対応しています。
 ## 素材
 ```
 Free stock photos Pexels 
- https://www.pexels.com/cats/
+ https://www.pexels.com/dogs/
 
 いらすとや 
  https://www.irasutoya.com/
