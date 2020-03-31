@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.f8daab755fb64a410af01ce6ff31396e.js"
+  "precache-manifest.f9e0dee9a0bcfcb44b24850718536083.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dog-rest"});

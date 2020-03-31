@@ -297,7 +297,7 @@ p.bodyMsg{
 @media screen and (max-width: 700px) { 
   #top {
   height: 50vh;
-  background-color: #55c7b3;
+  background-color: #ffb395;
   position: relative;
   }
   #topImg {

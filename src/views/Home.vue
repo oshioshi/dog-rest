@@ -91,6 +91,13 @@
       </div>
       </router-link>
 
+      <div class="dog_img">
+      <a href="https://cat-rest.com" target="_blank">
+      <img alt="cat" src="../assets/akubi_cat.png">
+      <p>ねこ派はこっち</p>
+      </a>
+      </div>
+
     </div>
     
   
