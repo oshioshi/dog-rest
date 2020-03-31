@@ -1,0 +1,5 @@
+SetEnvIf Host "^dog-than.cat-rest.com$" host
+order deny,allow
+deny from all
+allow from env=host
+
