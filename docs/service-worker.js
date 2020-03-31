@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.4fdab92ff7ddce759730c449ada5f3b9.js"
+  "precache-manifest.f8daab755fb64a410af01ce6ff31396e.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "cat-rest"});
+workbox.core.setCacheNameDetails({prefix: "dog-rest"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to

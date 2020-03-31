@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-//import Home from './views/Home.vue'
 
 Vue.use(Router)
 
@@ -8,78 +7,72 @@ export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
-    // {
-    //   path: '/',
-    //   name: 'home',
-    //   component: Home
-    // },
+  
     {
       path: '/',
       name: 'home',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/Home.vue')
+     
+      component: () => import('./views/Home.vue')
     },
     {
-      path: '/ragdoll',
-      name: 'ragdoll',
+      path: '/toypoodle',
+      name: 'toypoodle',
       
-      component: () => import('./views/ragdoll.vue')
+      component: () => import('./views/toypoodle.vue')
     },
     {
-      path: '/munchkin',
-      name: 'munchkin',
+      path: '/chihuahua',
+      name: 'chihuahua',
       
-      component: () => import('./views/munchkin.vue')
+      component: () => import('./views/chihuahua.vue')
     },
     {
-      path: '/scottish',
-      name: 'scottish',
+      path: '/shibainu',
+      name: 'shibainu',
       
-      component: () => import('./views/scottish.vue')
+      component: () => import('./views/shibainu.vue')
     },
     {
-      path: '/american',
-      name: 'american',
+      path: '/pomeranian',
+      name: 'pomeranian',
       
-      component: () => import('./views/american.vue')
+      component: () => import('./views/pomeranian.vue')
     },
     {
-      path: '/exotic',
-      name: 'exotic',
+      path: '/miniature_dachshund',
+      name: 'miniature_dachshund',
       
-      component: () => import('./views/exotic.vue')
+      component: () => import('./views/miniature_dachshund.vue')
     },
     {
-      path: '/russian',
-      name: 'russian',
+      path: '/corgi',
+      name: 'corgi',
       
-      component: () => import('./views/russian.vue')
+      component: () => import('./views/corgi.vue')
     },
     {
-      path: '/norwegian',
-      name: 'norwegian',
+      path: '/shih_tzu',
+      name: 'shih_tzu',
       
-      component: () => import('./views/norwegian.vue')
+      component: () => import('./views/shih_tzu.vue')
     },
     {
-      path: '/bengal',
-      name: 'bengal',
+      path: '/yorkshire_terrier',
+      name: 'yorkshire_terrier',
       
-      component: () => import('./views/bengal.vue')
+      component: () => import('./views/yorkshire_terrier.vue')
     },
     {
-      path: '/maine',
-      name: 'maine',
+      path: '/miniature_schnauzer',
+      name: 'miniature_schnauzer',
       
-      component: () => import('./views/maine.vue')
+      component: () => import('./views/miniature_schnauzer.vue')
     },
     {
-      path: '/kitten',
-      name: 'kitten',
+      path: '/puppy',
+      name: 'puppy',
       
-      component: () => import('./views/kitten.vue')
+      component: () => import('./views/puppy.vue')
     },
     {
       path: '/contact',

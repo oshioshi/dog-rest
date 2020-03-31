@@ -13,11 +13,11 @@ export default{
     }
   },
   mounted() {
-    this.getCatInfoJson();
+    this.getDogInfoJson();
   },
   methods: {
-    getCatInfoJson(){
-      axios.get('https://cat-rest-bucket.s3.amazonaws.com/'+this.jsonName)
+    getDogInfoJson(){
+      axios.get('https://dog-rest-bucket.s3.amazonaws.com/'+this.jsonName)
       .then(function(response) {
         this.list = response.data.body.statuses
       }.bind(this))
@@ -28,8 +28,8 @@ export default{
         this.loading = false
       }.bind(this))
     },
-    setJsonName(catType){
-      this.jsonName = catType.jsonName;
+    setJsonName(dogType){
+      this.jsonName = dogType.jsonName;
     }
   }
   

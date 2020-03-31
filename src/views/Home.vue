@@ -1,92 +1,92 @@
 <template>
   <div class="home">
-    <h2>「ねこやすみ」では、Twitter上のねこ画像を猫種ごとにお届けします</h2>
+    <h2>「いぬやすみ」では、Twitter上のいぬ画像を犬種ごとにお届けします</h2>
     
     <h3>↓さっそく癒される↓</h3>
 
-    <div class="catList">
-      <router-link to="/ragdoll">
-      <div class="cat_img">
-        <img alt="cat_ragdoll" src="../assets/cat_ragdoll.png">
-        <p>ラグドール</p>
+    <div class="dogList">
+      <router-link to="/toypoodle">
+      <div class="dog_img">
+        <img alt="dog_toypoodle_brown" src="../assets/dog_toypoodle_brown.png">
+        <p>トイプードル</p>
       </div>
       </router-link>
 
-      <router-link to="/munchkin">
-      <div class="cat_img">
-      <img alt="cat_munchkin" src="../assets/cat_munchkin.png">
-      <p>マンチカン</p>
+      <router-link to="/chihuahua">
+      <div class="dog_img">
+      <img alt="dog_chihuahua_black_tan" src="../assets/dog_chihuahua_black_tan.png">
+      <p>チワワ</p>
       </div>
       </router-link>
 
-      <router-link to="/scottish">
-      <div class="cat_img">
-      <img alt="cat_scottish_fold" src="../assets/cat_scottish_fold.png">
-      <p>スコティッシュフォールド</p>
+      <router-link to="/shibainu">
+      <div class="dog_img">
+      <img alt="dog_shibainu_brown" src="../assets/dog_shibainu_brown.png">
+      <p>柴犬</p>
       </div>
       </router-link>
 
     </div>
-    <div class="catList">
+    <div class="dogList">
 
-      <router-link to="/american">
-      <div class="cat_img">
-      <img alt="cat_american_shorthair" src="../assets/cat_american_shorthair.png">
-      <p>アメリカンショートヘア</p>
+      <router-link to="/pomeranian">
+      <div class="dog_img">
+      <img alt="dog_pomeranian" src="../assets/dog_pomeranian.png">
+      <p>ポメラニアン</p>
       </div>
       </router-link>
   
-      <router-link to="/exotic">
-      <div class="cat_img">
-      <img alt="cat_exotic_shorthair" src="../assets/cat_exotic_shorthair.png">
-      <p>エキゾチックショートヘア</p>
+      <router-link to="/miniature_dachshund">
+      <div class="dog_img">
+      <img alt="dog_miniature_dachshund" src="../assets/dog_miniature_dachshund.png">
+      <p>ミニチュアダックスフンド</p>
       </div>
       </router-link>
    
-      <router-link to="/russian">
-      <div class="cat_img">
-      <img alt="cat_russian_blue" src="../assets/cat_russian_blue.png">
-      <p>ロシアンブルー</p>
+      <router-link to="/corgi">
+      <div class="dog_img">
+      <img alt="dog_corgi" src="../assets/dog_corgi.png">
+      <p>コーギー</p>
       </div>
       </router-link>
 
     </div>
-    <div class="catList">
+    <div class="dogList">
 
-      <router-link to="/norwegian">
-      <div class="cat_img">
-      <img alt="cat_norwegian_forest_cat" src="../assets/cat_norwegian_forest_cat.png">
-      <p>ノルウェージャンフォレストキャット</p>
+      <router-link to="/shih_tzu">
+      <div class="dog_img">
+      <img alt="dog_shih_tzu" src="../assets/dog_shih_tzu.png">
+      <p>シーズー</p>
       </div>
       </router-link>
 
-      <router-link to="/bengal">
-      <div class="cat_img">
-      <img alt="cat_bengal" src="../assets/cat_bengal.png">
-      <p>ベンガル</p>
+      <router-link to="/yorkshire_terrier">
+      <div class="dog_img">
+      <img alt="dog_yorkshire_terrier" src="../assets/dog_yorkshire_terrier.png">
+      <p>ヨークシャーテリア</p>
       </div>
       </router-link>
 
-      <router-link to="/maine">
-      <div class="cat_img">
-      <img alt="cat_maine_coon" src="../assets/cat_maine_coon.png">
-      <p>メインクーン</p>
+      <router-link to="/miniature_schnauzer">
+      <div class="dog_img">
+      <img alt="dog_miniature_schnauzer" src="../assets/dog_miniature_schnauzer.png">
+      <p>ミニチュアシュナウザー</p>
       </div>
       </router-link>
 
     </div>
-    <div class="catList">
+    <div class="dogList">
       
-      <router-link to="/kitten">
-      <div class="cat_img">
-      <img alt="cat_kitten" src="../assets/neko_osuwari.png">
+      <router-link to="/puppy">
+      <div class="dog_img">
+      <img alt="pet_dog_sleep" src="../assets/pet_dog_sleep.png">
       <p>里親募集</p>
       </div>
       </router-link>
 
       <router-link to="/contact">
-      <div class="cat_img">
-      <img alt="contact" src="../assets/neko_maru.png">
+      <div class="dog_img">
+      <img alt="contact" src="../assets/animal_chara_computer_inu.png">
       <p>お問い合わせ</p>
       </div>
       </router-link>
@@ -114,7 +114,7 @@ h3 {
   margin: 60px 10px;
   font-size: 3rem;
 }
-.catList {
+.dogList {
   display: flex;
   justify-content:center;
 }
@@ -122,7 +122,7 @@ img {
   max-height: 15rem;
   width: auto;
 }
-.cat_img {
+.dog_img {
     margin-top: 40px;
     margin-bottom: 40px;
     text-decoration: none;
@@ -139,7 +139,7 @@ h3 {
   margin: 70px 2px 50px;
   font-size: 2rem;
 }
-.catList {
+.dogList {
   display: flex;
   flex-direction: column;
   align-items: center;

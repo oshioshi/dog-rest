@@ -1,49 +1,49 @@
 <template>
   <div id="app">
     <div id="top">
-      <img id="topImg" alt="topImg" src="./assets/adorable-animal-baby-256632.jpg">
+      <img id="topImg" alt="topImg" src="./assets/bed-animal-dog-dogs-57627.jpg">
       <p id="topMsg1">
-      仕事やバイトで疲れているあなた。猫が好きなあなた。
+      仕事やバイトで疲れているあなた。犬が好きなあなた。
       </p>
       <p id="topMsg2">
-      ねこのツイートでも見て、癒されていきませんか？？
+      いぬのツイートでも見て、癒されていきませんか？？
       </p>
       <div class="nav">
       
       <router-link to="/">
-        <img class="logoImg" alt="ねこやすみ" src="./assets/logo_catRest.png">
+        <img class="logoImg" alt="いぬやすみ" src="./assets/logo_dogRest.png">
       </router-link>
       
       <span class="menuPc">
-      <router-link class="menuitem" to="/ragdoll">
-        <img class="menu_cat" alt="cat_ragdoll" src="./assets/cat_ragdoll.png">
+      <router-link class="menuitem" to="/toypoodle">
+        <img class="menu_dog" alt="dog_toypoodle_brown" src="./assets/dog_toypoodle_brown.png">
       </router-link>
-      <router-link class="menuitem" to="/munchkin">
-        <img class="menu_cat" alt="cat_munchkin" src="./assets/cat_munchkin.png">
+      <router-link class="menuitem" to="/chihuahua">
+        <img class="menu_dog" alt="dog_chihuahua_black_tan" src="./assets/dog_chihuahua_black_tan.png">
       </router-link>
-      <router-link class="menuitem" to="/scottish">
-        <img class="menu_cat" alt="cat_scottish_fold" src="./assets/cat_scottish_fold.png">
+      <router-link class="menuitem" to="/shibainu">
+        <img class="menu_dog" alt="dog_shibainu_brown" src="./assets/dog_shibainu_brown.png">
       </router-link>
-      <router-link class="menuitem" to="/american">
-        <img class="menu_cat" alt="cat_american_shorthair" src="./assets/cat_american_shorthair.png">
+      <router-link class="menuitem" to="/pomeranian">
+        <img class="menu_dog" alt="dog_pomeranian" src="./assets/dog_pomeranian.png">
       </router-link>
-      <router-link class="menuitem" to="/exotic">
-        <img class="menu_cat" alt="cat_exotic_shorthair" src="./assets/cat_exotic_shorthair.png">
+      <router-link class="menuitem" to="/miniature_dachshund">
+        <img class="menu_dog" alt="dog_miniature_dachshund" src="./assets/dog_miniature_dachshund.png">
       </router-link>
-      <router-link class="menuitem" to="/russian">
-        <img class="menu_cat" alt="cat_russian_blue" src="./assets/cat_russian_blue.png">
+      <router-link class="menuitem" to="/corgi">
+        <img class="menu_dog" alt="dog_corgi" src="./assets/dog_corgi.png">
       </router-link>
-      <router-link class="menuitem" to="/norwegian">
-        <img class="menu_cat" alt="cat_norwegian_forest_cat" src="./assets/cat_norwegian_forest_cat.png">
+      <router-link class="menuitem" to="/shih_tzu">
+        <img class="menu_dog" alt="dog_shih_tzu" src="./assets/dog_shih_tzu.png">
       </router-link>
-      <router-link class="menuitem" to="/bengal">
-        <img class="menu_cat" alt="cat_bengal" src="./assets/cat_bengal.png">
+      <router-link class="menuitem" to="/yorkshire_terrier">
+        <img class="menu_dog" alt="dog_yorkshire_terrier" src="./assets/dog_yorkshire_terrier.png">
       </router-link>
-      <router-link class="menuitem" to="/maine">
-        <img class="menu_cat" alt="cat_maine_coon" src="./assets/cat_maine_coon.png">
+      <router-link class="menuitem" to="/miniature_schnauzer">
+        <img class="menu_dog" alt="dog_miniature_schnauzer" src="./assets/dog_miniature_schnauzer.png">
       </router-link>
-      <router-link class="menuitem" to="/kitten">
-        <img class="menu_cat" alt="cat_kitten" src="./assets/neko_osuwari.png">
+      <router-link class="menuitem" to="/puppy">
+        <img class="menu_dog" alt="pet_dog_sleep" src="./assets/pet_dog_sleep.png">
       </router-link>
       </span>
 
@@ -56,16 +56,16 @@
 
       <div class="menuSp hiddenMenu">
         <ul class="menuUl">
-          <li class="menuli"><router-link class="menuitem" to="/ragdoll">ラグドール</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/munchkin">マンチカン</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/scottish">スコティッシュフォールド</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/american">アメリカンショートヘア</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/exotic">エキゾチックショートヘア</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/russian">ロシアンブルー</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/norwegian">ノルウェージャンフォレストキャット</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/bengal">ベンガル</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/maine">メインクーン</router-link></li>
-          <li class="menuli"><router-link class="menuitem" to="/kitten">里親募集</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/toypoodle">トイプードル</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/chihuahua">チワワ</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/shibainu">柴犬</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/pomeranian">ポメラニアン</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/miniature_dachshund">ミニチュアダックスフンド</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/corgi">コーギー</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/shih_tzu">シーズー</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/yorkshire_terrier">ヨークシャーテリア</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/miniature_schnauzer">ミニチュアシュナウザー</router-link></li>
+          <li class="menuli"><router-link class="menuitem" to="/puppy">里親募集</router-link></li>
         </ul>
       </div>
 
@@ -110,7 +110,7 @@ body {
   margin:0px;
 }
 
-.menu_cat {
+.menu_dog {
   max-height: 10vh;
   width: auto;
 }
@@ -128,7 +128,7 @@ body {
 
 #top {
   height: 60vh;
-  background-color: #55c7b3;
+  background-color: #ffb193;
   position: relative;
 }
 
@@ -139,6 +139,8 @@ body {
   font-size: 2.5rem;
   max-width: 70vw;
   text-align: left;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
   /* transform: rotate(-2deg); */
 }
 
@@ -148,6 +150,8 @@ body {
   left: 20vw;
   font-size: 2.5rem;
   text-align: left;
+  color: #fff;
+  text-shadow: 1px 2px 3px #000;
   /* transform: rotate(2deg); */
 }
 
@@ -163,7 +167,7 @@ body {
     margin: 10px;
 }
 .nav {
-  background-color: #56c7b2;
+  background-color: #ffb395;
   width: 100vw;
   height: 10vh;
   padding: 0px;
@@ -181,7 +185,7 @@ body {
 
 .menuSp {
   width: 100%;
-  background-color: #56c7b2;
+  background-color: #ffb395;
   opacity: 0.95;
   transition:0.3s all ease 0s;
   z-index: 100;
@@ -189,7 +193,7 @@ body {
 }
 
 #footer {
-  background-color: #56c7b2;
+  background-color: #ffb395;
   width: 100vw;
   height: 10vh;
   padding: 0px;
@@ -352,7 +356,7 @@ mounted() {
     $('.logoImg').trigger('click');
     var now = new Date();
     var year = now.getFullYear();
-    $('#copy').text('© '+ year + ' ねこやすみ');
+    $('#copy').text('© '+ year + ' いぬやすみ');
   });
 }
 }    
